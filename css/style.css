@@ -74,3 +74,37 @@ p {
     width: 350px;
     height: 500px;
 }
+
+.planTitle {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.plan-title {
+    font-size: 20px;
+}
+
+.myplans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.watchImage {
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    background-image: url('../images/gradient1.png');
+    border-radius: 8px;
+    background: linear-gradient (90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+}
