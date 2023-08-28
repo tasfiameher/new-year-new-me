@@ -50,6 +50,11 @@ header {
     border: none;
 }
 
+.btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
 .banner {
     display: flex;
     justify-content: space-evenly;
@@ -66,8 +71,15 @@ h4 {
     margin-bottom: 10px;
 }
 
-p {
+.bannerHead {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.bannerP {
     margin-bottom: 5px;
+    color: #444343;
+    margin-bottom: 15px;
 }
 
 .personpic {
@@ -78,12 +90,14 @@ p {
 .planTitle {
     text-align: center;
     font-size: 40px;
+    font-weight: 700px;
     margin-bottom: 20px;
 
 }
 
 .plan-title {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 800;
 }
 
 .myplans {
@@ -96,9 +110,11 @@ p {
 .watchImage {
     width: 100%;
     margin: 20px 20px 20px 20px;
-    background-image: url('../images/gradient1.png');
+
     border-radius: 8px;
-    background: linear-gradient (90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    background-image:
+        url('../images/gradient1.png'),
+        linear-gradient(to bottom 45deg, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
 
 }
 
@@ -107,4 +123,67 @@ p {
     top: 8px;
     left: 16px;
     color: white;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    color: white;
+    margin-top: 100px;
+    padding: 130px 200px;
+
+}
+
+.info {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    margin-right: 25px;
+
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+input {
+    display: block;
+    margin: 20px;
+}
+
+.subscribe {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#email {
+
+    width: 200px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+}
+
+.btn-subscribe {
+    width: 80px;
+    height: 30px;
+
+
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+
+}
+
+.btn-subscribe:hover {
+    background-color: blue;
+    cursor: pointer;
+
 }
